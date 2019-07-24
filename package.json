@@ -1,0 +1,35 @@
+{
+  "name": "netflix-giphy-clone",
+  "version": "1.0.0",
+  "description": "Clone of Netflix with giphys",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -d --watch",
+    "start": "live-server --open=dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Druthi/netflix-giphy-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Druthi/netflix-giphy-clone/issues"
+  },
+  "homepage": "https://github.com/Druthi/netflix-giphy-clone#readme",
+  "dependencies": {
+    "css-loader": "^3.1.0",
+    "live-server": "^1.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.37.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack-cli": "^3.3.6"
+  }
+}
