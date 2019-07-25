@@ -1,5 +1,6 @@
 import React, { Component} from "react";
-import css from './App.css';
+import styled from 'styled-components';
+import Navbar from './components/Navbar';
 
 class App extends React.Component {
   constructor(props) {
@@ -8,11 +9,16 @@ class App extends React.Component {
 
   render() {
     return(
-      <div className='app'>
-        HELLO
-      </div>
+      <Container className='app'>
+        <Navbar />
+      </Container>
     );
   }
 }
 
 export default App;
+
+let Container = styled.div`
+  background:black;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif
+`;
